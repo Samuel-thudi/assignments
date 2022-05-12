@@ -9,6 +9,7 @@ def err_ranges(x, func, param, sigma):
     """
 
     import itertools as iter
+    import numpy as np
     
     # initiate arrays for lower and upper limits
     lower = func(x, *param)
